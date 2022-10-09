@@ -3,30 +3,36 @@
     Write a program to sum of all elements in array.
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
-    int arr[10],i,sum=0;
-    cout<<"Enter the ten element in array: ";
-    for ( i = 0; i < 10; i++)
+    int *arr, i, size, sum = 0;
+    cout << "How many element you want to sum : ";
+    cin >> size;
+    arr = new int[size];
+    cout << "Enter the " << size << " element in array: ";
+    for (i = 0; i < size; i++)
     {
-        cin>>arr[i];
+        cin >> arr[i];
     }
-    cout<<"Element is present in the array"<<endl;
-    for ( i = 0; i < 10; i++)
+    cout << "Element is present in the array" << endl;
+    for (i = 0; i < size; i++)
     {
-        cout<<arr[i]<<" ";
-        sum=sum+arr[i];
+        cout << arr[i] << " ";
+        sum = sum + arr[i];
     }
-    cout<<endl<<"Sum of all elements :"<<sum;   
+    cout << endl
+         << "Sum of all elements :" << sum;
     return 0;
 }
 
 /*
     Output:
-    Enter the ten element in array: 8 5 3 5 5 3 2 6 8 4
+    How many element you want to sum : 5
+    Enter the 5 element in array: 4 3 2 1 6
     Element is present in the array
-    8 5 3 5 5 3 2 6 8 4
-    Sum of all elements :49
+    4 3 2 1 6
+    Sum of all elements :16
+
 */
