@@ -139,7 +139,175 @@ void main()
 }
 
 /*
-    Output:
 
+Output:
+
+Stack Implementation
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 1
+
+ Enter the item to be pushed : 5
+
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 1
+
+ Enter the item to be pushed : 4
+
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 1
+
+ Enter the item to be pushed : 3
+
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 1
+
+ Enter the item to be pushed : 2
+
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 1
+
+ Enter the item to be pushed : 1
+
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 1
+
+ Enter the item to be pushed : 0
+
+ Stack is Full (Overflow)
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 3
+
+ The peek element is 1
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 3
+
+ The peek element is 1
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 4
+
+Elements of Stack :  1 2 3 4 5
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 2
+
+ The popped element is 1
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 2
+
+ The popped element is 2
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 2
+
+ The popped element is 3
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 2
+
+ The popped element is 4
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 2
+
+ The popped element is 5
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 2
+
+ Stack is Empty (Underflow)
+
+ Main Menu
+ 1 : push
+ 2 : pop
+ 3 : peek
+ 4 : display
+ 5 : exit
+ Select Operation : 5
+End of Program...
 
 */
