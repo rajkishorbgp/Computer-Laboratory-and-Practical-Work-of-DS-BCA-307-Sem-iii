@@ -13,16 +13,16 @@ int main()
 {
     int size, *arr, i;
     int position, value;
-    printf("Enter the size of the array you want to create : ");
+    printf("How many elements do you want to put in the array: ");
     scanf("%d", &size);
-    arr = (int *)calloc(size, sizeof(int));
-    printf("Enter the %d element: ", size + 1);
-    for (i = 0; i < size - 1; i++)
+    arr = (int *)calloc(size + 1, sizeof(int));
+    printf("Enter the %d element: ", size);
+    for (i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]);
     }
     printf("Element is present in the array\n");
-    printArray(arr, size - 1);
+    printArray(arr, size);
 
     printf("Enter the location where you want to insert an element: ");
     scanf("%d", &position);
@@ -30,22 +30,20 @@ int main()
     printf("Enter the value to insert: ");
     scanf("%d", &value);
 
-    addArray(arr, size, position, value);
-    printArray(arr, size);
+    addArray(arr, size + 1, position, value);
+    printArray(arr, size + 1);
 
     return 0;
 }
 
 void addArray(int arr[], int size, int position, int value)
 {
-    int i = size - 2;
-    while (i >= position)
+    int i;
+    for (i = size - 1; i >= position; i--)
     {
         arr[i + 1] = arr[i];
-        i--;
     }
-    arr[i + 1] = arr[i];
-    arr[i] = value;
+    arr[position] = value;
 }
 
 void printArray(int arr[], int size)
@@ -60,10 +58,11 @@ void printArray(int arr[], int size)
 
 /*
     Output:
-    Enter the size of Array: 5
-    Enter the 4 element: 2 3 4 5
-    Element is present in the array2 3 4 5
-    Enter the location where you want to insert an element: 4
-    Enter the value to insert: 2
-    2 3 4 2 5
+    How many elements do you want to put in the array: 6
+    Enter the 6 element: 1 2 3 4 5 6
+    Element is present in the array
+    1 2 3 4 5 6
+    Enter the location where you want to insert an element: 2
+    Enter the value to insert: 10
+    1 2 10 3 4 5 6
 */
