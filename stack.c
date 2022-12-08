@@ -134,6 +134,10 @@ void main()
             break;
         case 5:
             printf("End of Program...");
+            break;
+        default:
+            printf("\ninvalid input...");
+            break;
         }
     } while (ch != 5);
 }
