@@ -1,3 +1,8 @@
+/*
+                    @program: 16
+    Write a program to Search an element using sequential search.
+*/
+
 #include <stdio.h>
 
 int linSearch(int arr[], int size, int key)
@@ -35,3 +40,11 @@ void main()
         printf("%d is not found.", key);
     }
 }
+
+/*
+   Output:
+   How many elements do you want to put in the array: 8
+   Enter the 8 element: 1 8 5 3 2 4 5 6
+   Enter the key(do you want to search): 3
+   3 is a present in 3 position.
+*/
