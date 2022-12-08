@@ -1,5 +1,5 @@
 /*
-            program: 8;
+             @program: 8;
     Write a C program To Concatenate two string.
 */
 
