@@ -2,6 +2,7 @@
             program 15
     Write a c progriming to implementation of binary Search tree using array.
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 struct Node
@@ -57,3 +58,8 @@ int main()
 
     return 0;
 }
+
+/*
+    Output:
+    1 2 3 4 4 6 6 8 8 9 12 13 34 76
+*/
