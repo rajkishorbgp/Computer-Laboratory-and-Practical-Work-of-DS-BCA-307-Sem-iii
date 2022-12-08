@@ -1,5 +1,5 @@
 /*
-                program : 12
+                @program : 12
     Write a program to Calculate factorial of a number using recursive function.
 */
 #include <stdio.h>
