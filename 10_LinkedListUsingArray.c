@@ -1,5 +1,5 @@
 /*
-            Program: 10
+                @Program: 10
     Write a c program to implementation of linked list using array.
 */
 
