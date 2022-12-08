@@ -1,5 +1,5 @@
 /*
-                program: 4
+                @program: 4
     Write a C program To insert an element in an array
 */
 
