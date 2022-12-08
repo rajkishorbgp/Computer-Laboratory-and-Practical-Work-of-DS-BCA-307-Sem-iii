@@ -1,5 +1,5 @@
 /*
-                program: 1
+                @program: 1
     Write a c program To display fibonacci series up to a range.
 */
 
