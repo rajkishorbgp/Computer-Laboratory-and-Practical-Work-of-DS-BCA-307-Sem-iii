@@ -1,5 +1,5 @@
 /*
-                program: 9
+                @program: 9
     Write a C program To copy a string into another string.
 */
 #include <stdio.h>
