@@ -1,4 +1,5 @@
 /*
+                @program: 14
     Write a c program to implementation of circular queue using array.
 */
 
@@ -71,3 +72,11 @@ void main()
         delet();
     }
 }
+
+/*
+   Output:
+   1
+   2
+   3
+   4
+*/
