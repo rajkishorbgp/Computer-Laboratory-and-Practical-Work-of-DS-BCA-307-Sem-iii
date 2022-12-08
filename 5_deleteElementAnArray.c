@@ -1,5 +1,5 @@
 /*
-                    program: 5
+                    @program: 5
     Write a C program To delete an element from an array.
 */
 
