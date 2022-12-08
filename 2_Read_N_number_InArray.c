@@ -1,5 +1,5 @@
 /*
-                    program: 2
+                    @program: 2
     write a c program To read n numbers and display it, to demonstrate the
     concept of ane dimensional array finding.
 */
