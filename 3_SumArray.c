@@ -1,5 +1,5 @@
 /*
-            program: 3
+            @program: 3
     Write a c program to sum of all elements in array.
 */
 
