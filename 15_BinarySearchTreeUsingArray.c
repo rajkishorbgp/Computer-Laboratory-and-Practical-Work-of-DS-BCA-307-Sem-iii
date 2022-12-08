@@ -1,5 +1,5 @@
 /*
-            program 15
+                @program 15
     Write a c progriming to implementation of binary Search tree using array.
 */
 
