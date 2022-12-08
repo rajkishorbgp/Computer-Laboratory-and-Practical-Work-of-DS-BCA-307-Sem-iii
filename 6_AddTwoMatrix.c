@@ -1,5 +1,5 @@
 /*
-            program: 6
+                @program: 6
      Write a c program To add two matrix A and B.
 */
 
