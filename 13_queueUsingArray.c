@@ -1,4 +1,5 @@
 /*
+                @program: 13
     Write a c program to implementation of queue using array.
 */
 
@@ -40,7 +41,7 @@ int peek()
     return Q.que[Q.front];
 }
 
-int delete ()
+int delete()
 {
     int data, i;
     if (Q.rear == -1)
@@ -78,3 +79,7 @@ void main()
         delete ();
     }
 }
+/*
+    Output
+    3 4 5 6 7
+*/
