@@ -1,5 +1,5 @@
 /*
-                program: 7
+                @program: 7
     Write a c program To multiply two matrix A and B.
 */
 
