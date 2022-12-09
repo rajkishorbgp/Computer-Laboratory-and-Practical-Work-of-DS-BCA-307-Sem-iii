@@ -1,17 +1,27 @@
 /*
                 @program: 17
-    Write a program to Search an element using sequential search.
+    Write a program to Search an element using binary search.
 */
 
 #include <stdio.h>
 
-int BinarySearch(int arr[], int size, int key)
+int binarySearch(int arr[], int size, int key)
 {
-    for (int i = 0; i < size; i++)
+    int start = 0, end = size - 1;
+    while (start <= end)
     {
-        if (arr[i] == key)
+        int mid = (start + end) / 2;
+        if (arr[mid] == key)
         {
-            return i;
+            return mid;
+        }
+        if (arr[mid] < key)
+        {
+            start = mid + 1;
+        }
+        else
+        {
+            end = mid - 1;
         }
     }
     return -1;
@@ -19,25 +29,23 @@ int BinarySearch(int arr[], int size, int key)
 
 int main()
 {
-    int i, size, key, loc;
-    int arr[] = {4, 5, 2, 3, 5, 8, 6, 3, 1, 12, 13, 64, 10, 11};
+    int key, size, index;
+    int array[] = {2, 4, 6, 8, 10, 12, 14};
+    key = 12;
+    size = sizeof(array) / sizeof(int);
+    index = binarySearch(array, size, key);
 
-    size = sizeof(arr) / sizeof(int);
-
-    key = 1;
-    loc = linerSearch(arr, size, key);
-
-    if (loc != -1)
+    if (index != -1)
     {
-        printf("%d element is in %dth position.", key, loc);
+        printf("Element %d is %d position", key, index);
     }
     else
     {
-        printf("%d is not found", key);
+        printf("Element %d is not found!.", key);
     }
 }
 
 /*
    Output:
-   1 element is in 8th position.
+   Element 12 is 5 position
 */
