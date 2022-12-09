@@ -1,6 +1,6 @@
 /*
                 @program 15
-    Write a c progriming to implementation of binary Search tree using array.
+    Write a c progrim to implementation of binary Search tree using array.
 */
 
 #include <stdio.h>
