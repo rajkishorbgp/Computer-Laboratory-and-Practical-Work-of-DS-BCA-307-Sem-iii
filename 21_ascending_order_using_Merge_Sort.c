@@ -12,9 +12,9 @@ void printArray(int[], int);
 int main()
 {
     int arr[] = {3, 5, 2, 7, 2, 1, 5, 6, 3, 1, 2};
-    int ei = sizeof(arr) / sizeof(int);
-    mergeSort(arr, 0, ei);
-    printArray(arr, ei);
+    int size = sizeof(arr) / sizeof(int);
+    mergeSort(arr, 0, size - 1);
+    printArray(arr, size);
 
     return 0;
 }
