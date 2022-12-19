@@ -1,10 +1,13 @@
 # [Meerut Institute of Technology Professional Courses, Meerut (1110)](https://mitmeerut.ac.in/)
 ---
 ## Department of Computer Application (BCA)
-#### Subject:  Computer Laboratory and Practical Work of DS                         
-| Subject Code:  BCA-307 |
----
-|Semester: BCA III Sem|
+#### Subject:  Computer Laboratory and Practical Work of DS
+
+
+| Subject Code: BCA-307 |
+| -------               |
+|Semester: BCA III Sem  |
+
 > Session:   2022-23
 # INDEX
 > Lab Program List
