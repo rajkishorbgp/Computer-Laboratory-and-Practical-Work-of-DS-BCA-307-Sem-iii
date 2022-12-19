@@ -35,3 +35,7 @@
 21. * Write a program to arrange the list of numbers in ascending order using Merge Sort.
 22. * Write a program to arrange the list of numbers in ascending order using Quick Sort.
 23. * Write a program to arrange the list of numbers in Ascending order using Heap Sort.
+---
+![compleate](https://upload.wikimedia.org/wikipedia/commons/4/47/Done.png)
+
+# All program compleate.
