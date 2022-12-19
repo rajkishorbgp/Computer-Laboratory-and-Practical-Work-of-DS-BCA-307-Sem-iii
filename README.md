@@ -38,4 +38,4 @@
 ---
 ![compleate](https://upload.wikimedia.org/wikipedia/commons/4/47/Done.png)
 
-# All program compleate.
+# All program is completed.
