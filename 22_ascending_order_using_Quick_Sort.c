@@ -11,7 +11,7 @@ int partition(int *, int, int);
 int main()
 {
     int i, size;
-    int arr[] = {7, 8, 9, 6, 5, 4, 3, 2, 1, 0, 3, 7, 3};
+    int arr[] = {7, 8, 9, 6, 5, 4, 3, 2, 1, 0, 3, 7, 3, 0};
     size = sizeof(arr) / sizeof(int);
     quickSort(arr, 0, size - 1);
     for (i = 0; i < size; i++)
@@ -40,7 +40,7 @@ int partition(int arr[], int si, int ei)
 
     for (int j = si; j < ei; j++)
     {
-        if (arr[j] <= pivot)
+        if (arr[j] < pivot)
         {
             i++;
             // swap
@@ -50,7 +50,7 @@ int partition(int arr[], int si, int ei)
         }
     }
     i++;
-    int temp = pivot;
+    int temp = arr[ei];
     arr[ei] = arr[i];
     arr[i] = temp;
     return i;
@@ -58,5 +58,5 @@ int partition(int arr[], int si, int ei)
 
 /*
  *   Output:
- *   0 1 2 3 3 3 4 5 6 7 7 8 9
+ *   0 0 1 2 3 3 3 4 5 6 7 7 8 9
  */
