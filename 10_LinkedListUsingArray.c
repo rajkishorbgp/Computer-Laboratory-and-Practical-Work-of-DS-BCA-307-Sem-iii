@@ -99,7 +99,7 @@ Output:
 3. Exit.
 
 Select Operation : 1
-Enter the data: 5
+Enter the data: 4
 
 1. addFarst.
 2. print LInked List.
@@ -113,44 +113,14 @@ Enter the data: 6
 3. Exit.
 
 Select Operation : 1
-Enter the data: 7
-
-1. addFarst.
-2. print LInked List.
-3. Exit.
-
-Select Operation : 1
 Enter the data: 8
 
 1. addFarst.
 2. print LInked List.
 3. Exit.
 
-Select Operation : 1
-Enter the data: 9
-
-1. addFarst.
-2. print LInked List.
-3. Exit.
-
-Select Operation : 1
-
-Linked List is full...
-
-1. addFarst.
-2. print LInked List.
-3. Exit.
-
-Select Operation : 5
-
-invalid input...
-
-1. addFarst.
-2. print LInked List.
-3. Exit.
-
 Select Operation : 2
-9 8 7 6 5
+8 6 4
 1. addFarst.
 2. print LInked List.
 3. Exit.
